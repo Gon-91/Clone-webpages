@@ -1,0 +1,40 @@
+#body-frame {
+  width:956px;
+  margin:0 auto;
+  background:skyblue;
+}
+#container {
+  width:955px;
+  margin-top:37px;
+  margin-left:1px;
+  padding-bottom:24px;
+}
+
+.column {
+  float:left;
+  width:163px;
+  margin-right: -3px;
+  padding-left: 15px;
+  padding-right: 16px;
+  font:11px/18px dotum, sans-serif;
+  overflow:hidden;
+}
+#blogImage img{
+  width:160px;
+}
+
+#blogMenu {
+  margin-bottom: 20px;
+}
+
+#blogHeader h1 {
+  width:160px;
+  margin-top: 5px;
+  word-break:break-all;
+  word-wrap: break-word;
+}
+
+#blogDesc {
+  coler : gray;
+  font:11px/14px dotum, sans-serif;
+}
