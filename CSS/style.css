@@ -1,7 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  line-height: 1.5;
+  font-family:dotum,sans-serif;
+}
+
+
+body {
+  background-color: skyblue;
+  font-size: 12px;
+}
 #body-frame {
   width:956px;
   margin:0 auto;
-  background:skyblue;
+  background:skyblue repeat-y;
+
 }
 #container {
   width:955px;
@@ -17,6 +31,23 @@
   padding-left: 15px;
   padding-right: 16px;
   font:11px/18px dotum, sans-serif;
+  overflow:hidden;
+}
+
+.frame-right {
+  float : left;
+}
+
+.entry {
+  margin-top: 25px;
+}
+
+.entry .artcle {
+  width: 733px;
+  margin-top: 11px;
+  margin-bottom: 17px;
+  word-break: break-all;
+  word-wrap: break-word;
   overflow:hidden;
 }
 #blogImage img{
@@ -37,4 +68,15 @@
 #blogDesc {
   coler : gray;
   font:11px/14px dotum, sans-serif;
+}
+
+#content {
+  clear: both;
+  width: 733px;
+  margin-top: 19px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  background-color: white;
+  overflow: hidden;
+  word-break: break-all;
 }
